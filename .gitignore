@@ -1,0 +1,66 @@
+# =========================
+# Build output (never commit)
+# =========================
+.next/
+out/
+dist/
+build/
+.vercel/
+
+# =========================
+# Dependencies (always reinstalled)
+# =========================
+node_modules/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs & runtime noise
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# =========================
+# OS & editor-specific
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# TypeScript incremental cache
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Tooling caches
+# =========================
+.eslintcache
+.stylelintcache
+.turbo/
+.cache/
+
+# =========================
+# Tests / coverage artifacts
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Local-only assets
+# =========================
+uploads/
+public/uploads/
+*.zip
